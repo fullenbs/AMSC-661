@@ -1,7 +1,7 @@
 import meshio
 import gmsh
 import pygmsh
-from distmesh import get_verts as get_verts
+from HW_6.distmesh import get_verts as get_verts
 import matplotlib.pyplot as plt
 import numpy as np 
 
