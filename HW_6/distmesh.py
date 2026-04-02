@@ -200,9 +200,9 @@ def distmesh2D(fd,fh,h0,bbox,pfix):
             print("count = ",count,"displacement = ",displacement)
        
     pts,tri = fixmesh(pts,tri)
-    plt.triplot(pts[:,0],pts[:,1],tri,linewidth=0.1, color='b')
-    axes=plt.gca()
-    axes.set_aspect(1)
+    # plt.triplot(pts[:,0],pts[:,1],tri,linewidth=0.1, color='b')
+    # axes=plt.gca()
+    # axes.set_aspect(1)
     return pts,tri    
     
 #Below is everything I wrote: 
