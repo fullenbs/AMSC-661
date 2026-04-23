@@ -193,7 +193,7 @@ def true_distance_to_boundary(x, bdry_pts):
 #Main control loop for interior problem
 def interior_problem():
     #To save time in the testing process
-    pts, tri = load_msh('test.msh')
+    pts, tri = load_msh('interior.msh')
     Bdry, Interior = bdry_int(pts, tri, plot=False)
 
     Nc = 200
@@ -429,4 +429,4 @@ def exterior_problem():
 
 
 if __name__ == '__main__': 
-   exterior_problem()
+   interior_problem()
